@@ -20,6 +20,9 @@
                     <a href=""><img src="../assets/index/5.jpg" alt=""></a>
                 </div>
             </div>
+            <div class="shoptle">
+                人气良品
+            </div>
         </div>
         <my-footer></my-footer>
     </div>
@@ -51,6 +54,14 @@
 #index #main .adv5{
     top:210px;
     left: 684px;
+}
+#index #main .shoptle{
+    padding: 10px 0px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    color: #333;
+    width: 100%;
+    margin: 36px 0px 20px 0px;
 }
 </style>
 

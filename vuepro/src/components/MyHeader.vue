@@ -66,19 +66,39 @@
                     <a href="" class="underline">商店</a>
                     <div class="submHide">
                         <div class="storeLeft fl">
-                            <dl style="width:107px">
+                            <dl class="mr">
                                 <router-link to="/list/1">
                                     <img src="../assets/header/23687.png" style="width:40px;height:40px">
                                     <div class="ctxt">家居</div>
                                 </router-link>
                             </dl>
-                            <dl style="width:107px">
+                            <dl>
                                 <img src="../assets/header/23686.png" style="width:40px;height:40px">
                                 <div class="ctxt">文具</div>
                             </dl>
-                            <dl style="width:107px">
+                            <dl>
                                 <img src="../assets/header/23683.png" style="width:40px;height:40px">
                                 <div class="ctxt">数码</div>
+                            </dl>
+                            <dl>
+                                <img src="../assets/header/23682.png" style="width:40px;height:40px">
+                                <div class="ctxt">玩乐</div>
+                            </dl>
+                            <dl>
+                                <img src="../assets/header/23684.png" style="width:40px;height:40px">
+                                <div class="ctxt">餐厨</div>
+                            </dl>
+                            <dl>
+                                <img src="../assets/header/23680.png" style="width:40px;height:40px">
+                                <div class="ctxt">美食</div>
+                            </dl>
+                            <dl>
+                                <img src="../assets/header/23678.png" style="width:40px;height:40px">
+                                <div class="ctxt">服装</div>
+                            </dl>
+                            <dl>
+                                <img src="../assets/header/23676.png" style="width:40px;height:40px">
+                                <div class="ctxt">鞋包</div>
                             </dl>
                         </div>
                     </div>
@@ -86,7 +106,7 @@
                 <li>
                     <a href="" class="underline">杂志</a>
                     <div class="submHide magazine">
-                        <a href="">趣物</a>
+                        <a href="" class="mr">趣物</a>
                         <a href="">数码</a>
                         <a href="">汽车</a>
                         <a href="">文化</a>
@@ -97,13 +117,13 @@
                         <a href="">圈子</a>
                         <a href="">清单</a>
                         <a href="">活动</a>
-                        <a href="">视频</a>
+                        <a href="" class="mr">视频</a>
                     </div>
                 </li>
                 <li>
                     <a href="" class="underline">分享</a>
                     <div class="submHide magazine">
-                        <a href="">男士</a>
+                        <a href="" class="mr">男士</a>
                         <a href="">家居</a>
                         <a href="">数码</a>
                         <a href="">工具</a>
@@ -114,7 +134,7 @@
                         <a href="">饮食</a>
                         <a href="">运动</a>
                         <a href="">文化</a>
-                        <a href="">女士</a>
+                        <a href="" class="mr">女士</a>
                     </div>
                 </li>
                 <li class="superman">
@@ -345,13 +365,17 @@
     left: 0;
     top: 49px;
     width: 1000px;
+    height: 100px;
     letter-spacing: 1px;
     background: #fff;
     z-index: 999;
 }
 #header .storeLeft dl {
     float: left;
-    width: 122px;
+    width: 107px;
+}
+#header .subMenu .mr{
+    margin-left: 20px;
 }
 #header .subMenu li:nth-child(2):hover div{
     display: block;

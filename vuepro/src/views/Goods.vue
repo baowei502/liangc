@@ -12,7 +12,8 @@
             <div class="total">
                 <div class="left">
                     <div>
-                        <img :src="image" alt="">
+                        <!-- <img :src="image" alt=""> -->
+                        <my-glass :img="image"></my-glass>
                     </div>
                 </div>
                 <div class="right">
@@ -249,7 +250,7 @@ export default {
             this.goods = data[0];
             this.image = require('../../../server/img/product/'+data[0].pic);
 
-    })
-}
+        })
+    }
 }
 </script>

@@ -5,6 +5,7 @@ import store from './store'
 import MyHeader from './components/MyHeader'
 import MyFooter from './components/MyFooter'
 import Banner from './components/Banner'
+import Glass from './components/Glass'
 import axios from 'axios'
 import qs from 'qs'
 
@@ -14,6 +15,7 @@ Vue.prototype.qs=qs;
 Vue.component("my-header",MyHeader);
 Vue.component("my-footer",MyFooter);
 Vue.component("my-banner",Banner);
+Vue.component("my-glass",Glass);
 Vue.config.productionTip = false
 
 new Vue({
